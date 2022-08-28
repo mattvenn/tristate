@@ -13,7 +13,8 @@ module tristate(
 
 wire OUT1;
 
-sky130_fd_sc_hd__ebufn tr1(
+//    sky130_fd_sc_hd__ebufn_4 _0_ ( .A(A), .Z(Z), .TE_B(TE_B));
+sky130_fd_sc_hd__ebufn_4 tr1(
     .Z(Z)   ,
     .A (A)  ,
     .TE_B(TE_B),
